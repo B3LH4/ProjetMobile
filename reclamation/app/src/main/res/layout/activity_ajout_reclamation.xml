@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:visibility="visible"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editTextTypeReclamation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type de réclamation" />
+
+    <EditText
+        android:id="@+id/editTextEmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emplacement du problème" />
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description de la réclamation" />
+
+
+    <!-- Vous pouvez ajouter d'autres champs pour les preuves, les informations de contact, etc. -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:backgroundTint="#E81E1E"/>
+</LinearLayout>
