@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mobile"
+rootProject.name = "RentACar"
 include(":app")
  
