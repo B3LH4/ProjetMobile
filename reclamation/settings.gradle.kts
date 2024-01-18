@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Naviagtion_Interne"
+rootProject.name = "NavEsprit"
 include(":app")
  

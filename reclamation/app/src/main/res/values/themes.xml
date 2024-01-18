@@ -1,9 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Naviagtion_Interne" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.NavEsprit" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#EC1212</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">#D52828</item>
+    </style>
+    <style name="Theme.NavEsprit" parent="Base.Theme.NavEsprit" />
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
     </style>
 
-    <style name="Theme.Naviagtion_Interne" parent="Base.Theme.Naviagtion_Interne" />
 </resources>
