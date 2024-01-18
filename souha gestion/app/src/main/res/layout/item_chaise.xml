@@ -1,0 +1,23 @@
+<!-- item_chaise.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/numeroChaiseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero Chaise" />
+
+    <TextView
+        android:id="@+id/disponibiliteChaiseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibilite Chaise" />
+
+    <!-- Add more TextViews or UI elements as needed -->
+
+</LinearLayout>

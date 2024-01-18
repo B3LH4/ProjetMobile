@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Image View -->
+    <ImageView
+        android:id="@+id/ivSeanceImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="Seance Image"/>
+
+    <!-- Vertical LinearLayout for Text Views -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"> <!-- Added margin to separate from the image -->
+
+        <TextView
+            android:id="@+id/tvSeanceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seance ID: "
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvDateSeance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

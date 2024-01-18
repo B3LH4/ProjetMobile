@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+    tools:context=".Seance.AddSeatsActivity">
+
+        <EditText
+            android:id="@+id/editTextSeatNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seat Number"/>
+
+        <EditText
+            android:id="@+id/editTextSeatAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seat Availability"/>
+
+        <Button
+            android:id="@+id/buttonAddSeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/material_dynamic_tertiary0"
+            android:text="Add Seat"/>
+
+    </LinearLayout>

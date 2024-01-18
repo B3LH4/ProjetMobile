@@ -10,10 +10,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.NavEsprit"
         tools:targetApi="31">
         <activity
+            android:name=".Seance.admin.AdminSeancesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.admin.AdminDetailBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.admin.AdminBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.admin.AdminPickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.DetailBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.PickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.ViewBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.DetailSeanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.ShowSeancesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.SeanceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.admin.AddSeanceActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seance.AddSeatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

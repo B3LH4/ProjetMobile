@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Seance.SeanceDetailActivity">
+
+
+    <!-- Seance details TextViews -->
+        <TextView
+            android:id="@+id/numeroSeanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero Seance"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nomMatiereTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom Matiere"
+            android:layout_below="@id/numeroSeanceTextView"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp" />
+
+        <!-- RecyclerView for Chaises -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chaisesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nomMatiereTextView"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
